@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Courthouse3D from "./Courthouse3D"
+
 import Counter from "./Counter"
 
 
@@ -14,8 +14,18 @@ export default function Hero() {
             <div className="absolute inset-0 z-0">
 
             </div>
-            <Courthouse3D />
 
+            <div className="absolute inset-0 -z-10 flex items-center justify-center">
+
+                <img
+                    src="/ladyjustice.png"
+                    alt="Lady Justice"
+                    width={500}
+                    height={500}
+                    className="opacity-70 animate-pulse"
+                />
+
+            </div>
             {/* Dark overlay */}
 
             <div className="absolute inset-0 bg-black/70"></div>
