@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import Courthouse3D from "./Courthouse3D"
 import Counter from "./Counter"
-import GoldParticles from "./GoldParticles"
+
 
 export default function Hero() {
 
@@ -12,7 +12,7 @@ export default function Hero() {
         <section className="relative min-h-screen pt-24 flex items-center justify-center text-white">
 
             <div className="absolute inset-0 z-0">
-                <GoldParticles />
+
             </div>
             <Courthouse3D />
 
