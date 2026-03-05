@@ -40,8 +40,8 @@ export default function Navbar() {
                         Documents
                     </a>
 
-                    <a href="#advocates" className="hover:text-yellow-400 transition">
-                        Advocates
+                    <a href="#team" className="hover:text-yellow-400 transition">
+                        Team
                     </a>
 
                     <a
@@ -78,8 +78,8 @@ export default function Navbar() {
                         Documents
                     </a>
 
-                    <a href="#advocates" onClick={() => setMenuOpen(false)}>
-                        Advocates
+                    <a href="#team" onClick={() => setMenuOpen(false)}>
+                        Team
                     </a>
 
                     <a

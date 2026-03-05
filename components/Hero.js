@@ -93,7 +93,7 @@ export default function Hero() {
 
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
 
-                    <Counter value={10} label="Years Legal Experience" />
+                    <Counter value={15} label="Years Legal Experience" />
 
                     <Counter value={800} label="Cases Handled" />
 
